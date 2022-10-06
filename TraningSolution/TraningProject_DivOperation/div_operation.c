@@ -2,6 +2,7 @@
 int main() {
 	int a, b;
 	float div;
+	printf("¬ведите два целых числа(через пробел):");
 	scanf_s("%d %d", &a, &b);
 	if (b != 0 && a!=0) {
 		div = a / b;
